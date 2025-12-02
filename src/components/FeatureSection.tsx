@@ -1,30 +1,19 @@
 export default function FeatureSection() {
     return (
         <section className="py-20 px-6 md:px-12 bg-white">
-            <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
-                    Health Care Desk
-                </h2>
-                <h3 className="text-3xl md:text-4xl font-bold text-black">
-                    The Future Of Smart Health
-                </h3>
-            </div>
+
 
             <div className="max-w-[1540px] mx-auto space-y-24">
-                {/* Feature 1 */}
-                <div className="flex flex-col md:flex-row items-center gap-12">
-                    <div className="flex-1 space-y-6">
-                        <p className="text-gray-600 leading-relaxed text-lg">
-                            At Health Care Desk, we are committed to producing supplements that harness the power of all-natural superfoods. Our products help support the body's natural processes, improving our customers' quality of life.
-                        </p>
-                    </div>
-                    <div className="flex-1">
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1726769198572-542339268a7f?fm=jpg&q=80&w=800&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVyYmFsJTIwbWVkaWNpbmV8ZW58MHx8MHx8fDA%3D"
-                            alt="Herbal Ingredients"
-                            className="rounded-2xl shadow-lg w-full object-cover h-64 md:h-80"
-                        />
-                    </div>
+                <div className="text-center max-w-4xl mx-auto mb-24 space-y-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-black">
+                        Health Care Desk
+                    </h2>
+                    <h3 className="text-3xl md:text-4xl font-bold text-black">
+                        The Future Of Smart Health
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed text-lg">
+                        At Health Care Desk, we are committed to producing supplements that harness the power of all-natural superfoods. Our products help support the body's natural processes, improving our customers' quality of life.
+                    </p>
                 </div>
 
                 {/* Feature 2 */}

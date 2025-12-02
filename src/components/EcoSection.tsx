@@ -1,6 +1,6 @@
 export default function EcoSection() {
     return (
-        <section className="bg-[#F1F8E9] py-20 px-6 md:px-12">
+        <section className="bg-white py-20 px-6 md:px-12">
             <div className="max-w-[1540px] mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-24">
                 {/* Image */}
                 <div className="flex-1 relative">
