@@ -1,4 +1,4 @@
-import { Heart, Activity, Droplet, Zap } from 'lucide-react';
+import { Heart, Activity, Droplet } from 'lucide-react';
 
 export default function CharitySection() {
     return (
